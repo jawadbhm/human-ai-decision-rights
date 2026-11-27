@@ -3,9 +3,9 @@
 **A matched simulation of agent autonomy, human accountability, and review workload**  
 Jawad Bahoum · Independent research project · Working paper v0.2 · November 27, 2026
 
-[Research website](https://human-ai-decision-rights.vercel.app) · [Final working paper](paper/Decision_Rights_in_Human_AI_Organizations_v0_2.pdf) · [Offline results explorer](docs/index.html)
+[Research website](https://human-ai-decision-rights.vercel.app) · [Final working paper](paper/Decision_Rights_in_Human_AI_Organizations_v0_2.pdf) · [Zenodo record](https://zenodo.org/records/24584261) · [Version 0.2 DOI](https://doi.org/10.5281/zenodo.24584261) · [All versions DOI](https://doi.org/10.5281/zenodo.24584260) · [Offline results explorer](docs/index.html)
 
-This repository contains the corrected v0.2 working paper, source code, synthetic cases and datasets, recorded results, citation metadata, and instructions to reproduce the simulations. The work is an independent computational working paper and has not been peer reviewed. No DOI has been assigned.
+This repository contains the corrected v0.2 working paper, source code, synthetic cases and datasets, recorded results, citation metadata, and instructions to reproduce the simulations. The work is an independent computational working paper and has not been peer reviewed. The corrected v0.2 paper is publicly archived on Zenodo at the [version-specific DOI](https://doi.org/10.5281/zenodo.24584261) ([record](https://zenodo.org/records/24584261)). The [all-versions DOI](https://doi.org/10.5281/zenodo.24584260) always resolves to the latest version.
 
 ## Abstract
 
@@ -42,7 +42,7 @@ The experiments measure executable policy behavior and SQLite state changes unde
 - `decision_rights_validation/` — V2 policy gateway and frozen 48-case regression benchmark.
 - `data/` — recorded ablation, sensitivity, and V2 result summaries.
 - `docs/index.html` — self-contained browser explorer of the recorded results.
-- `metadata/` and `CITATION.cff` — citation and archival metadata; DOI remains pending.
+- `metadata/` and `CITATION.cff` — citation and archival metadata, including the version-specific and all-versions Zenodo DOIs.
 - `governance_comparative/README.md`, `decision_rights_validation/README.md`, and `MEASUREMENT_NOTE.md` — detailed research and measurement documentation.
 
 The hosted research website is a separate browser-side teaching demonstration; it is not the Python execution engine used for the experiments.
@@ -65,9 +65,9 @@ Optional analyses and mock runner instructions are documented in the correspondi
 
 Use the versioned paper citation in [`CITATION.cff`](CITATION.cff):
 
-> Bahoum, Jawad (2026). *Decision Rights in Human–AI Organizations: A Matched Simulation of Agent Autonomy, Human Accountability, and Review Workload*. Independent working paper, version 0.2.
+> Bahoum, Jawad (2026). *Decision Rights in Human–AI Organizations: A Matched Simulation of Agent Autonomy, Human Accountability, and Review Workload*. Independent working paper, version 0.2. Zenodo. https://doi.org/10.5281/zenodo.24584261
 
-There is no DOI yet. The paper's publication and independent validation status are described in [`metadata/deposit_metadata.json`](metadata/deposit_metadata.json).
+The public [Zenodo record](https://zenodo.org/records/24584261) identifies version 0.2; DOI [10.5281/zenodo.24584260](https://doi.org/10.5281/zenodo.24584260) resolves to the latest version. The paper's publication and independent validation status are described in [`metadata/deposit_metadata.json`](metadata/deposit_metadata.json).
 
 ## Author and licenses
 
