@@ -1,5 +1,7 @@
 # Decision Rights in Human–AI Organizations
 
+**DOI:** [10.5281/zenodo.24584261](https://doi.org/10.5281/zenodo.24584261)
+
 **A matched simulation of agent autonomy, human accountability, and review workload**  
 Jawad Bahoum · Independent research project · Working paper v0.2 · November 27, 2026
 
