@@ -1,0 +1,4002 @@
+{
+  "T0001": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0002": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0003": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0004": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0005": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0006": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0007": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0008": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0009": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0010": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0011": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0012": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0013": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0014": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0015": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0016": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0017": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0018": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0019": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0020": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0021": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0022": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0023": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0024": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0025": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0026": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0027": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0028": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0029": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0030": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0031": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0032": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0033": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0034": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0035": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0036": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0037": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0038": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0039": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0040": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0041": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0042": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0043": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0044": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0045": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0046": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0047": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0048": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0049": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0050": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0051": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0052": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0053": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0054": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0055": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0056": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0057": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0058": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0059": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0060": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0061": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0062": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0063": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0064": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0065": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0066": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0067": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0068": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0069": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0070": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0071": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0072": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0073": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0074": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0075": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0076": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0077": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0078": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0079": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0080": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0081": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0082": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0083": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0084": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0085": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0086": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0087": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0088": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0089": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0090": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0091": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0092": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0093": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0094": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0095": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0096": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0097": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0098": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0099": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0100": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0101": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0102": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0103": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0104": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0105": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0106": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0107": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0108": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0109": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0110": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0111": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0112": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0113": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0114": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0115": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0116": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0117": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0118": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0119": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0120": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0121": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0122": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0123": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0124": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0125": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0126": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0127": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0128": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0129": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0130": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0131": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0132": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0133": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0134": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0135": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0136": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0137": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0138": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0139": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0140": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0141": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0142": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0143": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0144": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0145": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0146": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0147": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0148": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0149": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0150": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0151": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0152": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0153": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0154": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0155": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0156": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0157": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0158": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0159": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0160": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0161": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0162": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0163": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0164": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0165": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0166": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0167": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0168": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0169": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0170": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0171": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0172": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0173": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0174": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0175": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0176": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0177": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0178": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0179": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0180": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0181": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0182": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0183": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0184": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0185": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0186": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0187": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0188": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0189": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0190": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0191": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0192": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0193": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0194": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0195": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0196": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0197": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0198": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0199": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0200": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0201": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0202": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0203": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0204": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0205": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0206": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0207": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0208": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0209": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0210": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0211": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0212": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0213": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0214": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0215": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0216": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0217": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0218": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0219": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0220": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0221": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0222": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0223": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0224": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0225": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0226": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0227": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0228": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0229": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0230": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0231": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0232": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0233": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0234": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0235": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0236": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0237": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0238": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0239": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0240": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0241": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0242": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0243": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0244": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0245": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0246": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0247": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0248": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0249": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0250": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0251": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0252": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0253": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0254": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0255": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0256": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0257": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0258": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0259": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0260": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0261": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0262": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0263": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0264": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0265": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0266": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0267": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0268": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0269": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0270": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0271": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0272": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0273": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0274": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0275": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0276": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0277": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0278": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0279": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0280": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0281": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0282": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0283": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0284": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0285": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0286": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0287": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0288": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0289": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0290": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0291": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0292": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0293": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0294": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0295": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0296": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0297": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0298": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0299": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0300": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0301": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0302": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0303": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0304": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0305": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0306": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0307": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0308": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0309": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0310": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0311": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0312": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0313": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0314": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0315": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0316": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0317": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0318": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0319": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0320": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0321": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0322": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0323": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0324": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0325": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0326": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0327": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0328": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0329": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0330": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0331": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0332": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0333": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0334": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0335": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0336": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0337": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0338": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0339": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0340": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0341": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0342": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0343": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0344": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0345": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0346": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0347": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0348": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0349": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0350": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0351": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0352": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0353": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0354": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0355": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0356": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0357": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0358": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0359": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0360": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0361": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0362": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0363": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0364": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0365": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0366": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0367": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0368": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0369": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0370": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0371": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0372": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0373": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0374": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0375": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0376": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0377": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0378": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0379": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0380": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0381": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0382": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0383": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0384": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0385": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0386": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0387": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0388": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0389": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0390": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0391": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0392": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0393": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0394": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0395": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0396": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0397": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0398": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0399": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0400": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0401": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0402": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0403": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0404": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0405": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0406": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0407": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0408": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0409": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0410": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0411": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0412": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0413": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0414": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0415": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0416": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0417": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0418": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0419": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0420": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0421": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0422": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0423": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0424": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0425": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0426": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0427": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0428": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0429": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0430": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0431": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0432": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0433": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0434": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0435": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0436": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0437": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0438": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0439": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0440": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0441": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0442": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0443": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0444": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0445": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0446": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0447": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0448": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0449": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0450": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0451": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0452": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0453": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0454": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0455": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0456": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0457": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0458": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0459": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0460": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0461": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0462": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0463": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0464": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0465": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0466": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0467": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0468": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0469": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0470": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0471": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0472": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0473": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0474": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0475": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0476": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0477": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0478": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0479": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0480": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0481": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0482": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0483": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0484": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0485": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0486": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0487": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0488": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0489": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0490": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0491": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0492": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0493": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0494": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0495": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0496": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0497": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0498": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0499": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0500": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0501": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0502": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0503": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0504": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0505": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0506": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0507": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0508": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0509": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0510": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0511": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0512": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0513": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0514": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0515": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0516": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0517": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0518": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0519": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0520": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0521": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0522": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0523": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0524": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0525": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0526": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0527": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0528": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0529": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0530": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0531": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0532": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0533": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0534": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0535": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0536": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0537": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0538": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0539": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0540": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0541": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0542": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0543": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0544": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0545": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0546": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0547": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0548": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0549": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0550": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0551": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0552": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0553": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0554": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0555": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0556": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0557": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0558": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0559": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0560": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0561": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0562": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0563": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0564": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0565": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0566": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0567": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0568": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0569": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0570": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0571": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0572": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0573": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0574": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0575": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0576": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0577": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0578": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0579": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0580": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0581": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0582": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0583": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0584": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0585": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0586": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0587": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0588": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0589": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0590": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0591": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0592": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0593": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0594": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0595": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0596": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0597": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0598": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0599": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0600": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0601": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0602": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0603": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0604": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0605": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0606": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0607": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0608": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0609": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0610": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0611": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0612": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0613": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0614": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0615": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0616": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0617": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0618": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0619": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0620": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0621": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0622": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0623": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0624": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0625": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0626": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0627": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0628": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0629": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0630": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0631": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0632": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0633": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0634": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0635": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0636": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0637": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0638": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0639": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0640": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0641": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0642": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0643": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0644": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0645": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0646": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0647": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0648": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0649": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0650": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0651": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0652": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0653": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0654": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0655": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0656": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0657": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0658": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0659": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0660": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0661": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0662": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0663": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0664": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0665": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0666": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0667": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0668": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0669": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0670": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0671": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0672": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0673": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0674": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0675": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0676": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0677": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0678": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0679": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0680": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0681": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0682": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0683": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0684": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0685": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0686": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0687": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0688": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0689": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0690": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0691": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0692": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0693": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0694": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0695": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0696": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0697": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0698": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0699": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0700": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0701": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0702": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0703": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0704": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0705": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0706": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0707": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0708": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0709": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0710": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0711": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0712": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0713": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0714": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0715": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0716": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0717": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0718": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0719": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0720": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0721": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0722": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0723": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0724": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0725": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0726": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0727": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0728": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0729": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0730": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0731": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0732": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0733": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0734": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0735": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0736": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0737": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0738": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0739": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0740": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0741": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0742": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0743": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0744": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0745": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0746": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0747": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0748": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0749": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0750": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0751": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0752": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0753": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0754": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0755": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0756": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0757": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0758": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0759": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0760": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0761": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0762": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0763": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0764": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0765": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0766": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0767": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0768": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0769": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0770": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0771": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0772": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0773": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0774": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0775": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0776": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0777": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0778": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0779": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0780": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0781": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0782": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0783": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0784": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0785": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0786": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0787": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0788": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0789": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0790": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0791": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0792": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0793": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0794": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0795": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0796": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0797": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0798": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0799": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0800": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0801": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0802": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0803": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0804": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0805": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0806": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0807": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0808": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0809": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0810": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0811": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0812": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0813": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0814": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0815": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0816": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0817": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0818": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0819": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0820": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0821": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0822": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0823": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0824": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0825": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0826": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0827": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0828": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0829": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0830": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0831": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0832": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0833": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0834": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0835": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0836": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0837": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0838": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0839": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0840": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0841": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0842": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0843": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0844": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0845": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0846": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0847": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0848": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0849": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0850": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0851": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0852": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0853": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0854": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0855": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0856": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0857": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0858": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0859": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0860": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0861": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0862": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0863": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0864": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0865": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0866": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0867": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0868": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0869": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0870": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0871": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0872": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0873": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0874": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0875": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0876": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0877": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0878": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0879": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0880": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0881": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0882": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0883": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0884": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0885": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0886": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0887": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0888": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0889": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0890": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0891": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0892": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0893": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0894": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0895": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0896": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0897": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0898": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0899": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0900": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0901": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0902": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0903": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0904": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0905": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0906": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0907": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0908": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0909": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0910": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0911": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0912": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0913": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0914": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0915": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0916": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0917": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0918": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0919": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0920": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0921": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0922": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0923": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0924": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0925": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0926": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0927": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0928": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0929": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0930": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0931": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0932": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0933": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0934": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0935": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0936": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0937": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0938": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0939": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0940": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0941": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0942": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0943": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0944": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0945": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0946": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0947": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0948": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0949": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0950": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0951": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0952": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0953": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0954": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0955": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0956": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0957": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0958": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0959": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0960": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0961": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0962": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0963": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0964": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0965": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0966": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0967": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0968": {
+    "operation": "set_salary",
+    "draft": ""
+  },
+  "T0969": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0970": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0971": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0972": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0973": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0974": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0975": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0976": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0977": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0978": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0979": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0980": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0981": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0982": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0983": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0984": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0985": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0986": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0987": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0988": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0989": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0990": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0991": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0992": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0993": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0994": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0995": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  },
+  "T0996": {
+    "operation": "send_reminder",
+    "draft": ""
+  },
+  "T0997": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T0998": {
+    "operation": "complete_checklist",
+    "draft": ""
+  },
+  "T0999": {
+    "operation": "sync_onboarding",
+    "draft": ""
+  },
+  "T1000": {
+    "operation": "draft",
+    "draft": "Orientation reminder draft."
+  }
+}

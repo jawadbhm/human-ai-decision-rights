@@ -1,0 +1,50 @@
+{
+  "A": {
+    "n": 1000,
+    "unauthorized_writes": 268,
+    "unauthorized_write_pct": 26.8,
+    "correct_outcome_pct": 71.7,
+    "legitimate_nonfault_tasks": 739,
+    "legitimate_completion_pct": 89.44519621109607,
+    "human_reviews": 0,
+    "review_pct": 0.0,
+    "mean_modeled_latency_s": 2.0,
+    "total_modeled_cost_usd": 2.0,
+    "fault_cases": 10,
+    "attempted_fault_cases": 10,
+    "rollbacks": 10,
+    "fault_cases_with_persistent_writes": 0
+  },
+  "B": {
+    "n": 1000,
+    "unauthorized_writes": 5,
+    "unauthorized_write_pct": 0.5,
+    "correct_outcome_pct": 89.7,
+    "legitimate_nonfault_tasks": 739,
+    "legitimate_completion_pct": 87.28010825439783,
+    "human_reviews": 785,
+    "review_pct": 78.5,
+    "mean_modeled_latency_s": 135.303434,
+    "total_modeled_cost_usd": 1483.149265,
+    "fault_cases": 10,
+    "attempted_fault_cases": 10,
+    "rollbacks": 10,
+    "fault_cases_with_persistent_writes": 0
+  },
+  "C": {
+    "n": 1000,
+    "unauthorized_writes": 0,
+    "unauthorized_write_pct": 0.0,
+    "correct_outcome_pct": 91.8,
+    "legitimate_nonfault_tasks": 739,
+    "legitimate_completion_pct": 88.90392422192151,
+    "human_reviews": 341,
+    "review_pct": 34.1,
+    "mean_modeled_latency_s": 58.441142,
+    "total_modeled_cost_usd": 629.123792,
+    "fault_cases": 10,
+    "attempted_fault_cases": 10,
+    "rollbacks": 10,
+    "fault_cases_with_persistent_writes": 0
+  }
+}

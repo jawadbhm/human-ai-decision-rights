@@ -1,0 +1,37 @@
+{
+  "title": "Decision Rights in Human–AI Organizations: A Matched Simulation of Agent Autonomy, Human Accountability, and Review Workload",
+  "creators": [
+    {
+      "name": "Bahoum, Jawad",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "description": "This working paper proposes a four-tier decision-rights model and evaluates its operational logic in a synthetic business-workflow sandbox using 1,000 matched cases across three governance configurations. Under default assumptions, the combined tiered policy and trusted mandate records 0 trials with unauthorized persistent mutations versus 268 and 5 in the alternatives, corresponding to 0, 376 and 7 changed database records, respectively. The combined arm routes 341 cases to review versus 785 under blanket review. The post-hoc ablation records 6 affected trials for tiers alone and 190 for the mandate alone. The results concern executable policy behavior under investigator-designed cases and oracle-based simulated reviewers, not live-model safety or workplace outcomes.",
+  "resource_type": "Preprint / working paper",
+  "version": "0.2",
+  "language": "eng",
+  "keywords": [
+    "organizational design",
+    "decision rights",
+    "AI agents",
+    "human oversight",
+    "simulation"
+  ],
+  "jel_suggested": [
+    "D23",
+    "M15",
+    "O33"
+  ],
+  "license": "CC-BY-4.0",
+  "doi": null,
+  "status": "Manuscript, disclosures and licenses approved on 2026-11-27. Public source repository: https://github.com/jawadbhm/human-ai-decision-rights. DOI-based archival deposit and independent validation remain pending.",
+  "related_demo": "https://human-ai-decision-rights.vercel.app",
+  "ai_disclosure": "AI assistance was used substantially in developing the prototype, designing fixtures, executing computational checks and drafting/revising the manuscript. The author approved the final claims and accepts responsibility for the work.",
+  "component_licenses": {
+    "paper": "CC-BY-4.0",
+    "code": "MIT",
+    "synthetic_data": "CC0-1.0"
+  },
+  "funding": "This research received no external funding.",
+  "competing_interests": "The author declares no competing interests."
+}

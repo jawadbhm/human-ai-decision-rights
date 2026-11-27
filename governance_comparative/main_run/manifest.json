@@ -1,0 +1,18 @@
+{
+  "seed": 20261127,
+  "n": 1000,
+  "proposal_source": "seeded synthetic error model",
+  "proposal_error_assumption": 0.05,
+  "injection_follow_assumption": 0.65,
+  "review_error_assumption": 0.02,
+  "common_controls": [
+    "strict schema",
+    "kill switch",
+    "audit availability",
+    "SQLite rollback"
+  ],
+  "proposal_cost_usd_assumption": 0.002,
+  "proposal_seconds_assumption": 2,
+  "human_hourly_cost_usd_assumption": 40,
+  "case_sha256": "b909fa46fdd53ec96c7bb976aafb1c8f6abb6cc86b2339866e20fa6817beb14c"
+}
