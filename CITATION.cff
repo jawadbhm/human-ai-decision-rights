@@ -7,7 +7,7 @@ authors:
 version: "0.2"
 date-released: 2026-11-27
 type: article
-doi: 10.5281/zenodo.24584261
+doi: "10.5281/zenodo.24584261"
 url: https://human-ai-decision-rights.vercel.app
 repository-code: https://github.com/jawadbhm/human-ai-decision-rights
 keywords:
