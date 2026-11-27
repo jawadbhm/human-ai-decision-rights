@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this work, cite the versioned working paper. No DOI has been assigned."
+message: "If you use this work, please cite version 0.2 using DOI 10.5281/zenodo.24584261."
 title: "Decision Rights in Human–AI Organizations: A Matched Simulation of Agent Autonomy, Human Accountability, and Review Workload"
 authors:
   - family-names: Bahoum
@@ -7,6 +7,7 @@ authors:
 version: "0.2"
 date-released: 2026-11-27
 type: article
+doi: 10.5281/zenodo.24584261
 url: https://human-ai-decision-rights.vercel.app
 repository-code: https://github.com/jawadbhm/human-ai-decision-rights
 keywords:
