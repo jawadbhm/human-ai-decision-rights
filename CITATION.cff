@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this work, cite the versioned working paper. No DOI has been assigned."
+title: "Decision Rights in Human–AI Organizations: A Matched Simulation of Agent Autonomy, Human Accountability, and Review Workload"
+authors:
+  - family-names: Bahoum
+    given-names: Jawad
+version: "0.2"
+date-released: 2026-11-27
+type: article
+url: https://human-ai-decision-rights.vercel.app
+repository-code: https://github.com/jawadbhm/human-ai-decision-rights
+keywords:
+  - organizational design
+  - AI governance
+  - decision rights
+  - simulation

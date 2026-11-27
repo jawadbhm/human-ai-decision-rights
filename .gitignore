@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.sqlite
+reproduction/
+**/live_smoke/
+**/live_20/
+**/live_1000/
+**/ablation_*/
+**/sensitivity/

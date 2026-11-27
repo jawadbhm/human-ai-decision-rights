@@ -1,0 +1,1 @@
+Historical field `unauthorized_write` is a Boolean trial flag. Aggregate `unauthorized_writes` counts affected trials. The approved paper v0.2 distinguishes 268/5/0 affected trials from 376/7/0 individual changed records in A/B/C. Code and archived fixtures are unaltered.
