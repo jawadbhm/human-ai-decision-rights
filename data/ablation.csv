@@ -1,0 +1,5 @@
+variant,n,unauthorized_writes,unauthorized_write_pct,correct_outcome_pct,legitimate_nonfault_tasks,legitimate_completion_pct,human_reviews,review_pct,mean_modeled_latency_s,total_modeled_cost_usd,fault_cases,attempted_fault_cases,rollbacks,fault_cases_with_persistent_writes
+neither,1000,268,26.8,71.7,739,89.44519621109607,0,0.0,2.0,2.0,10,10,10,0
+mandate_only,1000,190,19.0,73.2,739,89.44519621109607,0,0.0,2.0,2.0,10,10,10,0
+tiers_only,1000,6,0.6,91.5,739,88.90392422192151,415,41.5,71.766422,777.18246,10,10,10,0
+both,1000,0,0.0,91.8,739,88.90392422192151,341,34.1,58.441142,629.123792,10,10,10,0

@@ -1,0 +1,16 @@
+{
+  "mode": "authored adversarial fixtures; no model calls",
+  "benchmark_sha256": "5fafd8e545f780b09a10584087147c897d5f968f140f2390c855e655b9963502",
+  "cases": 48,
+  "passed_fixture": 48,
+  "wrong_payload_cases": 0,
+  "decisions": {
+    "ALLOW": 11,
+    "BLOCK": 22,
+    "ESCALATE": 14,
+    "ROLLBACK": 1
+  },
+  "replays_suppressed": 3,
+  "api_calls": 0,
+  "api_errors": 0
+}
