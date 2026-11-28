@@ -1,20 +1,20 @@
 {
-  "title": "Decision Rights in Human–AI Organizations: A Matched Simulation of Agent Autonomy, Human Accountability, and Review Workload",
+  "title": "Decision Rights in Human–AI Organizations: A matched simulation of agent autonomy, human accountability, and review workload",
   "creators": [
     {
       "name": "Bahoum, Jawad",
       "affiliation": "Independent researcher"
     }
   ],
-  "description": "This working paper proposes a four-tier decision-rights model and evaluates its operational logic in a synthetic business-workflow sandbox using 1,000 matched cases across three governance configurations. Under default assumptions, the combined tiered policy and trusted mandate records 0 trials with unauthorized persistent mutations versus 268 and 5 in the alternatives, corresponding to 0, 376 and 7 changed database records, respectively. The combined arm routes 341 cases to review versus 785 under blanket review. The post-hoc ablation records 6 affected trials for tiers alone and 190 for the mandate alone. The results concern executable policy behavior under investigator-designed cases and oracle-based simulated reviewers, not live-model safety or workplace outcomes.",
+  "description": "As AI agents acquire execution capabilities, organizations face the problem of delegating routine actions while preserving accountability and limiting review costs. This paper develops a four-tier decision-rights model and examines its operation in a synthetic business-workflow sandbox. A matched simulation of 1,000 cases compares unrestricted decision rights, blanket review of mutations, and risk-tiered governance combined with a trusted operation mandate. Under the default assumptions, the combined configuration produces zero trials with unauthorized persistent mutations, compared with 268 and 5 in the alternatives; the corresponding counts of changed records are 0, 376 and 7. It routes 341 cases to review, compared with 785 under blanket review. A post-hoc ablation yields 6 affected trials for tier rules alone and 190 for the mandate alone. Sensitivity analysis identifies residual vulnerabilities under modeled reviewer error. A reduced-form loss model derives the accuracy threshold below which discretionary review is economically preferable. A separate four-arm gateway smoke test evaluates 20 existing fixtures (80 policy evaluations) and passes 13 software unit tests. The test isolates mandate enforcement from review routing in the implementation. These results concern synthetic workflows and software behavior; live model performance and actual human review remain unmeasured.",
   "resource_type": "Preprint / working paper",
-  "version": "0.2",
+  "version": "0.5",
   "language": "eng",
   "keywords": [
     "organizational design",
     "delegation",
-    "decision rights",
     "AI agents",
+    "decision rights",
     "human oversight",
     "simulation"
   ],
@@ -24,21 +24,42 @@
     "O33"
   ],
   "license": "CC-BY-4.0",
-  "doi": "10.5281/zenodo.24584261",
-  "status": "Published publicly on Zenodo on 2026-11-27 as version 0.2. Version DOI: 10.5281/zenodo.24584261; all-versions DOI: 10.5281/zenodo.24584260. Independent validation remains pending.",
+  "doi": "10.5281/zenodo.24628610",
+  "status": "Published publicly on Zenodo on 2026-11-28 as Version 0.5. The version-specific DOI is registered and the concept DOI resolves to the latest release. This is an author-approved public release. No live LLM experiments or human-participant studies have been completed.",
   "related_demo": "https://human-ai-decision-rights.vercel.app",
-  "ai_disclosure": "AI assistance was used substantially in developing the prototype, designing fixtures, executing computational checks and drafting/revising the manuscript. The author approved the final claims and accepts responsibility for the work.",
+  "ai_disclosure": "AI assistance supported prototype development, fixture design, computational checks and manuscript preparation; the author is responsible for the research and its interpretation.",
   "component_licenses": {
     "paper": "CC-BY-4.0",
+    "latex_source": "CC-BY-4.0",
     "code": "MIT",
     "synthetic_data": "CC0-1.0"
   },
   "funding": "This research received no external funding.",
   "competing_interests": "The author declares no competing interests.",
+  "publication_date": "2026-11-28",
+  "version_doi": "10.5281/zenodo.24628610",
   "concept_doi": "10.5281/zenodo.24584260",
-  "zenodo_record_url": "https://zenodo.org/records/24584261",
+  "previous_version_doi": "10.5281/zenodo.24584261",
+  "author_approval": {
+    "status": "approved for public release",
+    "date": "2026-11-28",
+    "author": "Jawad Bahoum"
+  },
   "references": [
-    "Aghion, P., & Tirole, J. (1997). Formal and real authority in organizations. Journal of Political Economy, 105(1), 1–29. doi:10.1086/262063.",
-    "Brynjolfsson, E., Li, D., & Raymond, L. (2025). Generative AI at work. Quarterly Journal of Economics, 140(2), 889–942. doi:10.1093/qje/qjae044."
-  ]
+    "Aghion, P., & Tirole, J. (1997). Formal and real authority in organizations. Journal of Political Economy, 105(1), 1–29. https://doi.org/10.1086/262063.",
+    "Brynjolfsson, E., Li, D., & Raymond, L. (2025). Generative AI at work. Quarterly Journal of Economics, 140(2), 889–942. https://doi.org/10.1093/qje/qjae044.",
+    "Debenedetti, E., Zhang, J., Balunovic, M., Beurer-Kellner, L., Fischer, M., & Tramèr, F. (2024). AgentDojo: A dynamic environment to evaluate prompt injection attacks and defenses for LLM agents. Advances in Neural Information Processing Systems, 37 (Datasets and Benchmarks Track). https://doi.org/10.52202/079017-2636.",
+    "Dessein, W. (2002). Authority and communication in organizations. Review of Economic Studies, 69(4), 811–838. https://doi.org/10.1111/1467-937X.00227.",
+    "Fügener, A., Grahl, J., Gupta, A., & Ketter, W. (2022). Cognitive challenges in human–artificial intelligence collaboration: Investigating the path toward productive delegation. Information Systems Research, 33(2), 678–696. https://doi.org/10.1287/isre.2021.1079.",
+    "Garicano, L. (2000). Hierarchies and the organization of knowledge in production. Journal of Political Economy, 108(5), 874–904. https://doi.org/10.1086/317671.",
+    "Hadfield-Menell, D., & Hadfield, G. K. (2019). Incomplete contracting and AI alignment. Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society, 417–422. https://doi.org/10.1145/3306618.3314250.",
+    "Lebovitz, S., Lifshitz-Assaf, H., & Levina, N. (2022). To engage or not to engage with AI for critical judgments: How professionals deal with opacity when using AI for medical diagnosis. Organization Science, 33(1), 126–148. https://doi.org/10.1287/orsc.2021.1549.",
+    "Logg, J. M., Minson, J. A., & Moore, D. A. (2019). Algorithm appreciation: People prefer algorithmic to human judgment. Organizational Behavior and Human Decision Processes, 151, 90–103. https://doi.org/10.1016/j.obhdp.2018.12.005.",
+    "Ruan, Y., Dong, H., Wang, A., Pitis, S., Zhou, Y., Ba, J., Dubois, Y., Maddison, C. J., & Hashimoto, T. (2024). Identifying the risks of LM agents with an LM-emulated sandbox. International Conference on Learning Representations (ICLR 2024). https://proceedings.iclr.cc/paper_files/paper/2024/hash/7274ed909a312d4d869cc328ad1c5f04-Abstract-Conference.html."
+  ],
+  "zenodo_record_url": "https://zenodo.org/records/24628610",
+  "standalone_manuscript_url": "https://zenodo.org/records/24628610/files/Decision_Rights_in_Human_AI_Organizations_v0_5.pdf?download=1",
+  "publication_kit_url": "https://zenodo.org/records/24628610/files/Decision_Rights_v0_5_Publication_Kit.zip?download=1",
+  "publication_status": "published",
+  "access": "open"
 }

@@ -1,0 +1,235 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage[letterpaper,margin=1in,headheight=14pt]{geometry}
+\usepackage{microtype,booktabs,tabularx,array,amsmath,needspace,xurl}
+\usepackage{fancyhdr}
+\usepackage[hidelinks,pdfauthor={Jawad Bahoum},pdftitle={Decision Rights in Human-AI Organizations}]{hyperref}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{titlesec}
+\usepackage{setspace}
+\setstretch{1.10}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{3pt plus 1pt}
+\setlength{\emergencystretch}{1.5em}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.18}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\titlespacing*{\section}{0pt}{13pt plus 2pt minus 2pt}{5pt}
+\titlespacing*{\subsection}{0pt}{9pt plus 2pt minus 2pt}{3pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Decision Rights in Human--AI Organizations}
+\fancyhead[R]{\small Working paper v0.5}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\widowpenalty=10000
+\clubpenalty=10000
+\raggedbottom
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\begin{document}
+\thispagestyle{plain}
+\begin{center}
+{\LARGE\bfseries Decision Rights in Human--AI Organizations\par}
+\vspace{5pt}
+{\large A matched simulation of agent autonomy, human accountability, and review workload\par}
+\vspace{10pt}
+{\normalsize Jawad Bahoum \quad|\quad Independent researcher\par}
+{\small Working paper v0.5 \quad|\quad November 28, 2026\par}
+\end{center}
+\vspace{5pt}
+
+\section*{Abstract}
+As AI agents acquire execution capabilities, organizations face the problem of delegating routine actions while preserving accountability and limiting review costs. This paper develops a four-tier decision-rights model and examines its operation in a synthetic business-workflow sandbox. A matched simulation of 1,000 cases compares unrestricted decision rights, blanket review of mutations, and risk-tiered governance combined with a trusted operation mandate. Under the default assumptions, the combined configuration produces zero trials with unauthorized persistent mutations, compared with 268 and 5 in the alternatives; the corresponding counts of changed records are 0, 376 and 7. It routes 341 cases to review, compared with 785 under blanket review. A post-hoc ablation yields 6 affected trials for tier rules alone and 190 for the mandate alone. Sensitivity analysis identifies residual vulnerabilities under modeled reviewer error. A reduced-form loss model derives the accuracy threshold below which discretionary review is economically preferable. A separate four-arm gateway smoke test evaluates 20 existing fixtures (80 policy evaluations) and passes 13 software unit tests. The test isolates mandate enforcement from review routing in the implementation. These results concern synthetic workflows and software behavior; live model performance and actual human review remain unmeasured.
+
+\noindent\textbf{Keywords:} organizational design; delegation; AI agents; decision rights; human oversight; simulation.\par\noindent\textbf{JEL classifications:} D23, M15, O33.
+\section*{1. Research question and contribution}
+Can explicit human and AI decision rights reduce review routing relative to blanket oversight while limiting unauthorized execution? The paper contributes a concrete organizational control model, an executable matched simulation and a diagnostic decomposition of the controls. Its focus is the performance of a particular governance configuration under specified assumptions. The additional theoretical model specifies the conditions under which selective review is economically attractive, and a separate software pilot prepares a design that holds authorization constant across review policies.
+
+\section*{2. Theoretical motivation and operating model}
+Aghion and Tirole (1997) distinguish formal authority, the right to decide, from real authority, the effective control of decisions. Agent-mediated workflows raise a related problem: a human role may remain nominally accountable while an automated system initiates actions. Explicit decision rights are intended to keep delegated execution within an authorized scope.
+
+Brynjolfsson, Li, and Raymond (2025) find that access to generative AI assistance increased customer-support productivity, measured in issues resolved per hour, by approximately 15\% on average. Their evidence motivates investigation of work allocation; the present study addresses the separate question of governing delegated action.
+
+Delegation is also a problem of information allocation. Garicano (2000) models hierarchies as a response to the cost of acquiring knowledge and escalating difficult problems; Dessein (2002) studies the trade-off between communication and delegation when information and preferences differ. In agent-mediated workflows, the organization must determine which information and permissions travel with a task and which decisions remain with an accountable human. Hadfield-Menell and Hadfield (2019) connect incomplete contracting to AI alignment, motivating explicit limits on delegated discretion.
+
+Human oversight has its own information costs. Lebovitz, Lifshitz-Assaf, and Levina (2022) study how professionals engage with opaque AI outputs in consequential judgments. Fügener et al. (2022) investigate cognitive barriers to productive human--AI delegation, while Logg, Minson, and Moore (2019) document algorithm appreciation in judgment tasks. These studies motivate treating both agent reliability and reviewer effectiveness as variables to be measured rather than assuming either actor is infallible.
+
+\par\medskip\noindent\begin{minipage}{\linewidth}
+\captionsetup{justification=justified,singlelinecheck=false,skip=5pt}
+\captionof{table}{Proposed organizational decision-rights structure.}
+\small\begin{tabularx}{\linewidth}{@{}p{.18\linewidth}YY@{}}
+\toprule
+\textbf{Tier} & \textbf{Proposed agent remit} & \textbf{Accountable human role} \\
+\midrule
+1 \textperiodcentered{} Assisted & Draft and analyze; human executes & Individual contributor reviews and acts \\
+2 \textperiodcentered{} Bounded & Routine execution within approved scope & Function lead handles exceptions \\
+3 \textperiodcentered{} Delegated & Approved multi-step execution with risk, evaluation and rollback gates & Named owner oversees risk and quality \\
+4 \textperiodcentered{} Human-only & Analysis only; human execution & Authorized leader decides and executes \\
+\bottomrule
+\end{tabularx}
+\end{minipage}\par\medskip
+The gateway separates a trusted task mandate from untrusted request text, validates the action schema, applies common infrastructure safeguards and enforces tier-specific rules. SQLite executes mutations in local transactions. Approval in the comparative implementation follows a programmed decision rule. Tier 4 specifies human-only execution, but the simulator does not distinguish authenticated execution principals. The later V2 prototype represents authorization through two simulated approver IDs for protected mutations. Consequently, execution-principal separation remains outside the measured outcomes.
+
+\subsection*{2.1 A reduced-form economic model of discretionary review}
+Consider a permitted task and a risk-neutral principal choosing between autonomous execution and human review. Let p be the probability of correct agent execution; $C_e$ the expected loss from an execution error; w the reviewer's hourly cost; t review duration in hours; d the cost of delay; s the probability that review detects and prevents an error; f the probability that review incorrectly rejects a correct action; and $C_o$ the opportunity cost of such rejection. All cost parameters are nonnegative. Review performance is taken as exogenous conditional on task characteristics, and successfully prevented errors incur no residual execution loss.
+
+\[L_A=(1-p)C_e\]
+\[L_H=(1-p)(1-s)C_e+pfC_o+wt+d\]
+\[\text{Review if:}\quad (1-p)sC_e>pfC_o+wt+d\]
+\[p^*=\frac{sC_e-wt-d}{sC_e+fC_o}\]
+When the denominator is positive, discretionary review minimizes expected loss for p below $p^*$. At equality the principal is indifferent. If the threshold is nonpositive, no positive feasible accuracy makes review strictly preferable; a zero denominator requires comparing the losses directly. Mandatory authorization and human-only controls constrain the feasible action set before any cost comparison. This is a reduced-form decision model rather than an incentive-contracting model.
+
+\subsection*{2.2 Comparative statics and testable predictions}
+Write $R=wt+d$ and $K=fC_o$. At an interior threshold, the derivatives with respect to s and $C_e$ are $C_e(K+R)/(sC_e+K)^2$ and $s(K+R)/(sC_e+K)^2$, respectively. The derivatives with respect to w, t and d are $-t/(sC_e+K)$, $-w/(sC_e+K)$ and $-1/(sC_e+K)$. Increasing K lowers the threshold in the interior. Accordingly, higher error losses and greater reviewer detection sensitivity expand the range of tasks for which discretionary review is attractive; higher review costs and false-rejection costs contract that range.
+
+The model motivates three prospective hypotheses: tiered routing reduces review frequency relative to blanket review when mandate checks are held constant; higher error losses increase the preferred review frequency; and greater reviewer costs reduce the preferred review frequency for discretionary tasks. Testing these propositions requires calibrated agent correctness estimates, independently measured reviewer performance, and prespecified cost schedules on held-out tasks. The original synthetic probabilities cannot identify those quantities.
+
+\section*{3. Experimental design}
+The default sample comprises 1,000 seeded synthetic cases (seed 20261127) drawn from 14 weighted archetypes. Of these, 749 are legitimate, including 10 transaction-failure fixtures, and 251 are illegitimate. Each case receives one synthetic proposed operation, replayed across three fresh policy-arm states.
+
+\subsection*{3.1 Policy configurations and assumptions}
+\par\medskip\noindent\begin{minipage}{\linewidth}
+\captionsetup{justification=justified,singlelinecheck=false,skip=5pt}
+\captionof{table}{Policy arms. All share schema validation, a kill switch, an audit-availability flag and local transaction rollback. Arm B lacks C's trusted operation mandate.}
+\small\begin{tabularx}{\linewidth}{@{}p{.23\linewidth}Y@{}}
+\toprule
+\textbf{Arm} & \textbf{Decision policy} \\
+\midrule
+A \textperiodcentered{} Unrestricted & Schema and infrastructure safeguards; otherwise allows execution. \\
+B \textperiodcentered{} Blanket review & Common safeguards; all mutations routed to a simulated reviewer; nonmutating drafts allowed. \\
+C \textperiodcentered{} Combined & Common safeguards, trusted intended-operation matching and tier-specific rules; exceptional cases routed to simulated review. \\
+\bottomrule
+\end{tabularx}
+\end{minipage}\par\medskip
+The proposal-error threshold is 5\%; the injection-follow threshold is 65\% for the injection archetype. The simulated reviewer has access to fixture-defined legitimacy and the intended operation, and flips its decision with probability 2\%. These parameters are specified by design. In A and B, incorrect drafts may pass because nonmutating proposals fall outside blanket mutation review.
+
+\section*{4. Measures and main results}
+Unauthorized mutation incidence identifies trials with at least one persistent changed record when the fixture deems the request illegitimate or the proposed operation differs from the intended one. The historical field unauthorized\_write records a Boolean trial flag. The comparative model uses fixed synthetic operation effects, leaving execution identity and parameter-level correctness outside the metric.
+
+A correct outcome consists of authorized completion on legitimate tasks, noncompletion on illegitimate tasks, or rollback on a matching injected-failure case. An incorrect draft counts as incorrect completion without a persistent mutation; draft semantics and downstream consequences remain unmeasured. Legitimate nonfault completion is calculated over 739 eligible tasks, excluding transaction-failure fixtures.
+
+\par\medskip\noindent\begin{minipage}{\linewidth}
+\captionsetup{justification=justified,singlelinecheck=false,skip=5pt}
+\captionof{table}{Default matched comparison (3,000 trials). Counts from case-level CSV and archived SQLite state; currency and percentages rounded.}
+\small\begin{tabularx}{\linewidth}{@{}Yrrr@{}}
+\toprule
+\textbf{Metric} & \textbf{A} & \textbf{B} & \textbf{C} \\
+\midrule
+Trials with unauthorized mutation & 268 (26.8\%) & 5 (0.5\%) & 0 (0.0\%) \\
+Unauthorized changed records & 376 & 7 & 0 \\
+Correct outcomes & 717 (71.7\%) & 897 (89.7\%) & 918 (91.8\%) \\
+Legitimate nonfault completion & 661/739 (89.4\%) & 645/739 (87.3\%) & 657/739 (88.9\%) \\
+Cases routed to review & 0 & 785 & 341 \\
+Matching fault rollbacks & 10/10 & 10/10 & 10/10 \\
+Modeled latency per case & 2.0 s & 135.3 s & 58.4 s \\
+Modeled total cost & \$2.00 & \$1,483.15 & \$629.12 \\
+\bottomrule
+\end{tabularx}
+\end{minipage}\par\medskip
+\subsection*{4.1 Interpretation and modeled economics}
+Relative to B, C routes 444 fewer cases to review (56.6\%), improves correct outcomes by 2.1 percentage points and completes 12 additional legitimate nonfault tasks (1.6 percentage points). A completes four more legitimate nonfault tasks than C, illustrating a completion--control trade-off. All three arms roll back the 10 matching injected faults through their shared infrastructure.
+
+The cost model assigns \$0.002 and two seconds per proposal, a \$40 hourly review cost and a triangular review duration of 0.5, 2 and 6 minutes (minimum, mode and maximum). Review-routed unresolved cases incur the modeled review duration. The resulting cost and latency estimates reflect these assumptions and routing frequencies. Matching controls for differences in cases and proposals, conditional on the shared simulation design.
+
+\section*{5. Robustness and post-hoc decomposition}
+\par\medskip\noindent\begin{minipage}{\linewidth}
+\captionsetup{justification=justified,singlelinecheck=false,skip=5pt}
+\captionof{table}{Trials with unauthorized persistent mutations per 1,000 cases per arm. Parameters are proposal-error, injection-follow and reviewer-flip thresholds. Five settings (15,000 trials) reuse the same cases and random draws.}
+\small\begin{tabularx}{\linewidth}{@{}Yrrr@{}}
+\toprule
+\textbf{Assumption setting} & \textbf{A affected} & \textbf{B affected} & \textbf{C affected} \\
+\midrule
+Low model error (1\% / 25\% / 1\%) & 223 & 2 & 0 \\
+Default (5\% / 65\% / 2\%) & 268 & 5 & 0 \\
+High model error (15\% / 85\% / 5\%) & 323 & 16 & 1 \\
+Higher reviewer error (5\% / 65\% / 10\%) & 268 & 27 & 4 \\
+Perfect reviewer (5\% / 65\% / 0\%) & 268 & 0 & 0 \\
+\bottomrule
+\end{tabularx}
+\end{minipage}\par\medskip
+The low and high model-error settings vary all three thresholds jointly. Under higher reviewer error, C records four affected trials; with perfect simulated review, both B and C record zero. The zero observed under the default setting is therefore sensitive to the reviewer assumptions.
+
+\par\medskip\noindent\begin{minipage}{\linewidth}
+\captionsetup{justification=justified,singlelinecheck=false,skip=5pt}
+\captionof{table}{Post-hoc ablation on identical default cases and proposals, 1,000 focal-arm trials per configuration. The mandate and reviewer draw on fixture labels.}
+\small\begin{tabularx}{\linewidth}{@{}Yrrr@{}}
+\toprule
+\textbf{Configuration} & \textbf{Affected trials} & \textbf{Review routes} & \textbf{Correct} \\
+\midrule
+Neither & 268 & 0 & 71.7\% \\
+Operation mandate only & 190 & 0 & 73.2\% \\
+Tier rules only & 6 & 415 & 91.5\% \\
+Both & 0 & 341 & 91.8\% \\
+\bottomrule
+\end{tabularx}
+\end{minipage}\par\medskip
+Tier rules account for much of the reduction within this benchmark. Adding operation matching removes six affected trials and 74 review routes relative to tiers alone. The ablation isolates components of the implemented bundle within the simulation.
+
+\section*{6. Limitations and reproducibility}
+\subsection*{6.1 Construct and external validity}
+Case distributions, labels and templated text are investigator-designed. The trusted mandate encodes the intended operation and the simulated reviewer has oracle access. C therefore benefits from information that may be difficult to obtain in deployment. The unrestricted baseline serves as a diagnostic comparator; the main comparison bundles tiering with a trusted mandate, and the post-hoc ablation is exploratory.
+
+The comparative experiment uses synthetic proposals and simulated reviewers. It contains no live model calls or employee participation. Long-horizon actions, compromised mandate issuance, concurrency, tenant isolation, approval expiry and distributed transaction failures remain untested. Local SQLite rollback cannot establish cross-system atomicity. The audit-outage flag represents an external audit dependency while the local audit remains available. Actual review latency, productivity and financial returns require organizational evidence.
+
+\subsection*{6.2 Separate regression suite}
+The later V2 prototype adds exact record and value/type matching, simulated dual approvals, receipt-based replay suppression and local rollback. All 48 developer-authored fixtures passed (11 allow, 22 block, 14 escalate, 1 rollback), with three suppressed replays. This suite evaluates the extended gateway separately from the earlier operation-level experiment; it provides regression evidence rather than an independent holdout.
+
+\subsection*{6.3 Statistical scope and replication}
+Reported percentages describe a fixed, seeded challenge set; parameter settings reuse its cases and random draws. Population inference and real-world causal effects are outside the design. Zero observed affected trials does not establish a zero event probability. Confirmatory analysis requires a prospectively frozen, independently authored and labeled sample.
+
+Replication materials include the comparative simulator, case and proposal JSON, case-level CSV, sensitivity and ablation scripts, and V2 suite. The archived 3,000 case-arm rows reproduced except for local execution timing. Changed-record counts were checked against 12,000 archived SQLite record rows and 3,000 event rows. The 15 sensitivity rows, four ablation rows and nine run summaries were reproduced or recomputed in the original release checks. For this revision, the main simulation summaries and all 48 V2 fixture outcomes reproduced from the archived source. These checks establish computational reproducibility within the research workflow; independent replication remains pending.
+
+The browser demonstration illustrates archived results. The revised live API runner and four-arm software pilot are distributed separately from the original simulation. AI assistance supported prototype development, fixture design, computational checks and manuscript preparation; the author is responsible for the research and its interpretation.
+
+\section*{7. Engineering extension and future validation}
+\subsection*{7.1 Four-arm gateway and software pilot}
+The revised gateway implements exact record and typed-payload matching and binds signed approvals to run, case, proposal, arm and trusted context. Protected actions require two distinct approval signatures and a separate executor signature. Replay suppression and local transaction rollback are tested. The gateway verifies possession of registered keys; the local gateway still commits writes under the signed executor identity. Authenticated human identity and separately hosted human-only execution remain deployment prerequisites.
+
+The revised comparison has four arms. A omits discretionary mandate enforcement for nonprotected actions; B combines blanket mutation review with a trusted exact mandate; C applies risk-tiered review using the same mandate; D retains the mandate without discretionary review. Mandatory protected-action authorization and infrastructure stops apply across all four arms. B versus C is the primary contrast for isolating review routing conditional on authorization.
+
+A development smoke test replayed 20 pre-existing regression fixtures across all four arms, yielding 80 matched evaluations. The proposals were fixture-supplied, and no model inference or human decisions occurred. The gateway's 13 unit tests passed, including signed approval, executor separation at the signature level, conflicting replay and rollback checks. Table 6 reports implementation diagnostics; pending approvals were not supplied and are treated as noncompletion at the recorded snapshot.
+
+\par\medskip\noindent\begin{minipage}{\linewidth}
+\captionsetup{justification=justified,singlelinecheck=false,skip=5pt}
+\captionof{table}{Four-arm software smoke test (20 fixtures per arm). Gateway-derived counts; no live model calls or human review events.}
+\small\begin{tabularx}{\linewidth}{@{}Yrrrr@{}}
+\toprule
+\textbf{Arm} & \textbf{Unsafe trials} & \textbf{Review routes} & \textbf{Pending} & \textbf{Completion} \\
+\midrule
+A & 6 & 3 & 2 & 6 \\
+B & 0 & 9 & 9 & 0 \\
+C & 0 & 5 & 5 & 3 \\
+D & 0 & 2 & 2 & 6 \\
+\bottomrule
+\end{tabularx}
+\end{minipage}\par\medskip
+The observed zero unsafe trials in B, C and D are fixture-specific; they cannot establish comparative safety or noninferiority. With no approval events, blanket review necessarily leaves routed mutations pending. The software test checks that routing and authorization can be separated, rather than estimating the effectiveness of human review.
+
+\subsection*{7.2 Prospective live-model and human-review experiment}
+An external-model runner is implemented for separate planner and critic requests, with capture of raw responses, model identifiers, usage, timing and errors. The pilot uses proposal replay and does not grant models interactive tool access. Provider interoperability, independent benchmark authorship and actual reviewer participation must be established before confirmatory collection. AgentDojo (Debenedetti et al., 2024) and ToolEmu (Ruan et al., 2024) provide relevant external challenge designs; any adaptations should document mappings and exclusions. A 20-task development pilot per model family should precede a power and precision calculation for a frozen holdout.
+
+Primary outcomes are unauthorized persistent mutations, exact legitimate nonfault completion and human review routing. Secondary outcomes include false refusals, duplicate execution, rollback, model availability, elapsed time and token usage. Paired task-level analysis would use uncertainty intervals appropriate to the sampling design, report failures and prespecified exclusions, and establish noninferiority margins with stakeholder approval and adequate sample size. The confirmatory protocol will be frozen and registered before collection; the existing smoke test is development-only.
+
+A prospective reviewer pilot would recruit two or three consenting evaluators and assign a stratified subset of correct and incorrect proposals, with independent reference labels concealed during review. Record initial decisions, start and submission times, and whether an erroneous action was prevented. Estimate s as the proportion of erroneous proposals prevented, f as the proportion of correct proposals rejected, and t as mean elapsed review time in hours; record missing and abandoned reviews separately. If multiple evaluators assess the same case, retain reviewer and case identifiers for dependence-aware uncertainty estimates. Report stratum-specific estimates and any weighting used to generalize them to the target task distribution. Use held-out agent outcomes to estimate p and predeclared cost schedules for $C_e$, $C_o$, w and d; propagate estimation uncertainty into the review threshold. These quantities are prospective and have not yet been measured.
+
+Organizational validation would recruit consenting teams, obtain appropriate ethics and operational approvals and initially limit workflows to non-sensitive, reversible tasks. Comparison with established approval processes would include independent incident adjudication, actual end-to-end time, rework, role clarity and cognitive load. Predefined safety thresholds would govern stopping, with leadership authorization required for expansion.
+
+\section*{8. Conclusion}
+The matched synthetic simulation illustrates the operation of risk-tiered governance under specified assumptions. The economic model identifies how error costs, agent accuracy and reviewer performance jointly determine the value of discretionary review. The four-arm engineering extension prepares a cleaner comparison of authorization and routing mechanisms. Independent live-model and human-review studies are needed to estimate the relevant parameters and evaluate the hypotheses beyond the software sandbox.
+
+\section*{References}
+\par\noindent\hangindent=1.5em\hangafter=1 Aghion, P., \& Tirole, J. (1997). Formal and real authority in organizations. Journal of Political Economy, 105(1), 1--29. \url{https://doi.org/10.1086/262063}.
+\par\noindent\hangindent=1.5em\hangafter=1 Brynjolfsson, E., Li, D., \& Raymond, L. (2025). Generative AI at work. Quarterly Journal of Economics, 140(2), 889--942. \url{https://doi.org/10.1093/qje/qjae044}.
+\par\noindent\hangindent=1.5em\hangafter=1 Debenedetti, E., Zhang, J., Balunovic, M., Beurer-Kellner, L., Fischer, M., \& Tramèr, F. (2024). AgentDojo: A dynamic environment to evaluate prompt injection attacks and defenses for LLM agents. Advances in Neural Information Processing Systems, 37 (Datasets and Benchmarks Track). \url{https://doi.org/10.52202/079017-2636}.
+\par\noindent\hangindent=1.5em\hangafter=1 Dessein, W. (2002). Authority and communication in organizations. Review of Economic Studies, 69(4), 811--838. \url{https://doi.org/10.1111/1467-937X.00227}.
+\par\noindent\hangindent=1.5em\hangafter=1 Fügener, A., Grahl, J., Gupta, A., \& Ketter, W. (2022). Cognitive challenges in human--artificial intelligence collaboration: Investigating the path toward productive delegation. Information Systems Research, 33(2), 678--696. \url{https://doi.org/10.1287/isre.2021.1079}.
+\par\noindent\hangindent=1.5em\hangafter=1 Garicano, L. (2000). Hierarchies and the organization of knowledge in production. Journal of Political Economy, 108(5), 874--904. \url{https://doi.org/10.1086/317671}.
+\par\noindent\hangindent=1.5em\hangafter=1 Hadfield-Menell, D., \& Hadfield, G. K. (2019). Incomplete contracting and AI alignment. Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society, 417--422. \url{https://doi.org/10.1145/3306618.3314250}.
+\par\noindent\hangindent=1.5em\hangafter=1 Lebovitz, S., Lifshitz-Assaf, H., \& Levina, N. (2022). To engage or not to engage with AI for critical judgments: How professionals deal with opacity when using AI for medical diagnosis. Organization Science, 33(1), 126--148. \url{https://doi.org/10.1287/orsc.2021.1549}.
+\par\noindent\hangindent=1.5em\hangafter=1 Logg, J. M., Minson, J. A., \& Moore, D. A. (2019). Algorithm appreciation: People prefer algorithmic to human judgment. Organizational Behavior and Human Decision Processes, 151, 90--103. \url{https://doi.org/10.1016/j.obhdp.2018.12.005}.
+\par\noindent\hangindent=1.5em\hangafter=1 Ruan, Y., Dong, H., Wang, A., Pitis, S., Zhou, Y., Ba, J., Dubois, Y., Maddison, C. J., \& Hashimoto, T. (2024). Identifying the risks of LM agents with an LM-emulated sandbox. International Conference on Learning Representations (ICLR 2024). \url{https://proceedings.iclr.cc/paper_files/paper/2024/hash/7274ed909a312d4d869cc328ad1c5f04-Abstract-Conference.html}.
+\par\medskip\noindent\small Funding: No external funding. Competing interests: None declared. No actual employee or participant records were used. License: CC BY 4.0 (paper); MIT (original code); CC0 1.0 (original synthetic data).
+\end{document}

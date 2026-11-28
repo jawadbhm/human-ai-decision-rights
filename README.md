@@ -1,84 +1,51 @@
 # Decision Rights in Human–AI Organizations
 
-**DOI:** [10.5281/zenodo.24584261](https://doi.org/10.5281/zenodo.24584261)
+**Current official release:** Version 0.5 · November 28, 2026  
+**Version DOI:** [10.5281/zenodo.24628610](https://doi.org/10.5281/zenodo.24628610)  
+**Concept DOI:** [10.5281/zenodo.24584260](https://doi.org/10.5281/zenodo.24584260) · resolves to the latest version  
+**Public record:** [https://zenodo.org/records/24628610](https://zenodo.org/records/24628610)  
+**Previous version:** [Version 0.2](https://zenodo.org/records/24584261)  
+**Research website:** [https://human-ai-decision-rights.vercel.app](https://human-ai-decision-rights.vercel.app)
 
-**A matched simulation of agent autonomy, human accountability, and review workload**  
-Jawad Bahoum · Independent research project · Working paper v0.2 · November 27, 2026
-
-[Research website](https://human-ai-decision-rights.vercel.app) · [Final working paper](paper/Decision_Rights_in_Human_AI_Organizations_v0_2.pdf) · [Zenodo record](https://zenodo.org/records/24584261) · [Version 0.2 DOI](https://doi.org/10.5281/zenodo.24584261) · [All versions DOI](https://doi.org/10.5281/zenodo.24584260) · [Offline results explorer](docs/index.html)
-
-This repository contains the corrected v0.2 working paper, source code, synthetic cases and datasets, recorded results, citation metadata, and instructions to reproduce the simulations. The work is an independent computational working paper and has not been peer reviewed. The corrected v0.2 paper is publicly archived on Zenodo at the [version-specific DOI](https://doi.org/10.5281/zenodo.24584261) ([record](https://zenodo.org/records/24584261)). The [all-versions DOI](https://doi.org/10.5281/zenodo.24584260) always resolves to the latest version.
+Version 0.5 is the author-approved public release. The LaTeX-formatted PDF and source are in the paper directory. The complete release and replication package is in replication/Decision_Rights_v0_5_Publication_Kit.zip; the separately downloadable live-pilot software kit is also in replication/. The repository's v0.2 paper remains in the paper directory as historical material and is not the current release.
 
 ## Abstract
 
-As AI agents acquire execution capabilities, organizations face a design problem: how to delegate routine actions without diffusing accountability or imposing unnecessary review. This paper proposes a four-tier decision-rights model and examines its operational logic in a synthetic business-workflow sandbox. Using 1,000 matched cases, it compares unrestricted decision rights, blanket human review of mutations, and risk-tiered governance combined with a trusted operation mandate. In the default simulation, the combined configuration has 0 trials with unauthorized persistent mutations, versus 268 and 5 in the alternatives, and routes 341 cases to review rather than 785 under blanket review. The corresponding numbers of unauthorized changed database records are 0, 376 and 7, respectively. A post-hoc ablation records 6 affected trials for tier rules alone and 190 for the mandate alone. Sensitivity tests reveal residual vulnerabilities under modeled reviewer error. These are executable policy comparisons conditional on investigator-designed cases, trusted mandates and oracle-based simulated reviews. They do not establish live-model safety, actual human performance, workplace productivity or enterprise readiness.
+As AI agents acquire execution capabilities, organizations face the problem of delegating routine actions while preserving accountability and limiting review costs. This paper develops a four-tier decision-rights model and examines its operation in a synthetic business-workflow sandbox. A matched simulation of 1,000 cases compares unrestricted decision rights, blanket review of mutations, and risk-tiered governance combined with a trusted operation mandate. Under the default assumptions, the combined configuration produces zero trials with unauthorized persistent mutations, compared with 268 and 5 in the alternatives; the corresponding counts of changed records are 0, 376 and 7. It routes 341 cases to review, compared with 785 under blanket review. A post-hoc ablation yields 6 affected trials for tier rules alone and 190 for the mandate alone. Sensitivity analysis identifies residual vulnerabilities under modeled reviewer error. A reduced-form loss model derives the accuracy threshold below which discretionary review is economically preferable. A separate four-arm gateway smoke test evaluates 20 existing fixtures (80 policy evaluations) and passes 13 software unit tests. The test isolates mandate enforcement from review routing in the implementation. These results concern synthetic workflows and software behavior; live model performance and actual human review remain unmeasured.
 
-## Main results
+## Research status and limits
 
-The default experiment applies the same 1,000 seeded synthetic tasks to three governance arms, for 3,000 matched trials. Arm C combines a four-tier policy with a trusted per-task operation mandate.
+The Version 0.5 manuscript reports a matched synthetic simulation and software checks. The main comparison uses 1,000 synthetic cases per arm. Its separate four-arm gateway smoke test evaluates 20 existing fixtures (80 policy evaluations); 13 software unit tests passed. These are simulation and software results, not measured human performance or independent empirical validation. No live LLM experiment or human-participant study has been completed. Both remain prospective. The publication does not claim that these studies were executed.
 
-| Measure | A · Unrestricted | B · Blanket review | C · Tiered + mandate |
-| --- | ---: | ---: | ---: |
-| Trials with unauthorized persistent mutations | 268 (26.8%) | 5 (0.5%) | 0 (0.0%) |
-| Unauthorized changed database records | 376 | 7 | 0 |
-| Correct outcomes | 71.7% | 89.7% | 91.8% |
-| Cases routed to simulated human review | 0 | 785 | 341 |
-| Modeled total cost | $2.00 | $1,483.15 | $629.12 |
-| Modeled mean latency per case | 2.0 s | 135.3 s | 58.4 s |
+## Repository contents and reproduction
 
-Costs and latency are model outputs based on stated assumptions, not observed costs or end-to-end times. The post-hoc ablation records 6 affected trials for tier rules alone and 190 for the mandate alone, so the main comparison does not isolate the effect of the tier structure. Sensitivity settings reuse the same task set and are not independent samples.
+- paper/Decision_Rights_in_Human_AI_Organizations_v0_5.pdf — current manuscript.
+- paper/Decision_Rights_in_Human_AI_Organizations_v0_5.tex — LaTeX source used for the current layout.
+- paper/Decision_Rights_in_Human_AI_Organizations_v0_2.pdf — preserved previous-version file.
+- replication/Decision_Rights_v0_5_Publication_Kit.zip — complete release package, including the PDF, LaTeX source, research materials and integrity manifest.
+- replication/Decision_Rights_Live_Pilot_Engineering_Kit.zip — software evaluation code, fixtures, outputs, tests and prospective protocol.
+- Existing Python source, synthetic datasets, recorded outputs and analysis documentation remain in the repository.
 
-The separate V2 gateway suite contains 48 developer-authored regression fixtures; all 48 pass in the recorded run. It is not a blinded benchmark, independent validation, live-model evaluation, or evidence of production security. No external model calls or real human reviews were used in the supplied results.
+For the main matched simulation and frozen validation suite, from the repository root:
 
-## Method and limitations
-
-The comparative experiment uses investigator-designed synthetic cases, a seeded synthetic proposal-error process, fixed sandbox operations, and a simulated reviewer whose assumed error rate is set in code. Arm C combines tier-specific routing with an operation mandate, while A and B do not use that mandate. The reviewer sees fixture-defined legitimacy and operation information; approvals are simulated rather than authenticated human decisions.
-
-The experiments measure executable policy behavior and SQLite state changes under those assumptions. They do not test live-model safety, actual human performance, employee outcomes, productivity, or enterprise readiness. The prototype does not provide a separate authenticated human execution principal; multi-tenant isolation, distributed transactions, concurrent writes, approval expiry, real audit-sink failures, and organizational deployment remain unvalidated. The V2 suite is a developer-authored regression suite, not independent validation. See the paper and module documentation for full definitions and limitations.
-
-## Repository map
-
-- `paper/` — corrected v0.2 working paper PDF.
-- `governance_comparative/` — matched simulation, recorded main-run cases/proposals/results, sensitivity analysis, and mock/live runner.
-- `decision_rights_research/` — post-hoc control ablation.
-- `decision_rights_validation/` — V2 policy gateway and frozen 48-case regression benchmark.
-- `data/` — recorded ablation, sensitivity, and V2 result summaries.
-- `docs/index.html` — self-contained browser explorer of the recorded results.
-- `metadata/` and `CITATION.cff` — citation and archival metadata, including the version-specific and all-versions Zenodo DOIs.
-- `governance_comparative/README.md`, `decision_rights_validation/README.md`, and `MEASUREMENT_NOTE.md` — detailed research and measurement documentation.
-
-The hosted research website is a separate browser-side teaching demonstration; it is not the Python execution engine used for the experiments.
-
-## Reproduce the recorded experiments
-
-Requirements: Python 3.10 or later. The offline reproduction commands use only the Python standard library. Run these commands from the repository root:
-
-```sh
+~~~sh
 python3 governance_comparative/experiment.py --out reproduction/main
 python3 decision_rights_validation/run.py --out reproduction/v2
 python3 verify.py reproduction/main/summary.json reproduction/v2/summary.json
-```
+~~~
 
-The verifier checks the reproduced main-run metrics against the committed summary and checks the V2 suite against its recorded summary. Repeated runs reproduce outcome counts; local timing can vary. Generated files go under `reproduction/`, which is ignored by Git.
-
-Optional analyses and mock runner instructions are documented in the corresponding module READMEs. Live-model modes are optional, require credentials supplied securely by the operator, may incur provider charges, and are not needed to reproduce the supplied results. The repository contains no credentials. Never use real employee records with this prototype.
+The commands reproduce the archived summary metrics and fixture outcomes under the documented assumptions. They do not run live models or recruit human participants. The pilot kit contains its own README, software tests and checksums. SHA256SUMS.txt covers the repository's tracked release files; the publication kit has its own manifest.
 
 ## Citation
 
-Use the versioned paper citation in [`CITATION.cff`](CITATION.cff):
+Bahoum, Jawad (2026). *Decision Rights in Human–AI Organizations: A matched simulation of agent autonomy, human accountability, and review workload* (Version 0.5). Zenodo. https://doi.org/10.5281/zenodo.24628610
 
-> Bahoum, Jawad (2026). *Decision Rights in Human–AI Organizations: A Matched Simulation of Agent Autonomy, Human Accountability, and Review Workload*. Independent working paper, version 0.2. Zenodo. https://doi.org/10.5281/zenodo.24584261
+Use the version-specific DOI for this manuscript. The concept DOI 10.5281/zenodo.24584260 resolves to the latest version; prior publication versions remain in Zenodo's version history and through their version DOIs.
 
-The public [Zenodo record](https://zenodo.org/records/24584261) identifies version 0.2; DOI [10.5281/zenodo.24584260](https://doi.org/10.5281/zenodo.24584260) resolves to the latest version. The paper's publication and independent validation status are described in [`metadata/deposit_metadata.json`](metadata/deposit_metadata.json).
+## Licensing and disclosures
 
-## Author and licenses
+- Version 0.5 manuscript PDF and LaTeX source: **CC BY 4.0** — see LICENSE-PAPER.md.
+- Original research software: **MIT** — see LICENSE-CODE.txt.
+- Original synthetic datasets: **CC0 1.0** — see LICENSE-DATA.txt.
 
-**Jawad Bahoum** is an independent researcher. The paper discloses substantial AI assistance in prototype development, fixture design, computational checks, and manuscript drafting/revision. No external funding or competing interests are declared. The project is not affiliated with or commissioned by OpenAI.
-
-The approved licenses have separate scopes; this is not a single-license repository:
-
-- Working paper and original manuscript text: [CC BY 4.0](LICENSE-PAPER.md).
-- Source code and associated research software: [MIT](LICENSE-CODE.txt).
-- Original synthetic benchmark and experiment datasets: [CC0 1.0](LICENSE-DATA.txt).
-
-See [`LICENSES.md`](LICENSES.md) for scope and exclusions.
+These are separate scopes; the record-level manuscript license does not replace software or dataset notices. This research received no external funding. The author declares no competing interests. AI assistance supported prototype development, fixture design, computational checks and manuscript preparation; the author is responsible for the research and its interpretation. Third-party cited material and trademarks are excluded from these author-held licenses.
